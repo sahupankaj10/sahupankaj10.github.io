@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Pankaj Sahu, Machine Learning Engineer">
+    <meta name="keywords" content="Machine Learning, NLP, Classification, Chatbot, Full stack developing">
+    <meta name="author" content="Pankaj">
+    <meta property="og:title" content="pankaj">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Pankaj Sahu, Machine Learning Engineer" />
+    <meta property="og:image" content="https://sahupankaj10.github.io/og.png">
+    <meta property="og:url" content="https://sahupankaj10.github.io/">
+    <link rel="icon" href="https://sahupankaj10.github.io/icon.png" type="image/png" />
+<!--    <meta name="google-site-verification" content="mjFIZTxE_IKhH-lBgPwblCJ1xPugeI5RRe0qnXF10M8" />-->
+    <title>Pankaj Sahu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body id="body">
+<div id="loading">
+    <div id="leftThingy"></div>
+    <div id="RightThingy"></div>
+    <div id="text">
+        <h1>Pankaj</h1>
+        <div id="spinner"></div>
+    </div>
+</div>
+<div id="inlarge">
+    <button onclick="takeitback()"><i class="fas fa-times"></i></button>
+    <div id="img_container">
+        <img src="" id="thischangesxD">
+    </div>
+</div>
+<div id="header">
+    <div id="links" class="animated bounceInDown" style="animation-delay:4s;">
+<!--        <a href="#about">skills</a>-->
+        <a href="#work">works</a>
+        <a href="https://github.com/sahupankaj10/gitfolio" id="wtf" target="_blank">gitfolio</a>
+        <a href="#contact">contact</a>
+    </div>
+</div>
+<div id="middle">
+    <div id="tagline">
+        <b id="typehere"></b>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div id="about">
+        <!--<p>skills.</p>-->
+        <!--<div>
+            <h2><i class="fas fa-code"></i> Languages </h2>
+            <table>
+                <tr>
+                    <td>Python</td>
+                    <td>Php</td>
+                    <td>Java</td>
+                    <td>JavaScript (VueJS/NodeJs) </td>
+                    <td>SQL</td>
+                    <td>Bash</td>
+                </tr>
+            </table>
+            <h2><i class="fas fa-database"></i> Databases </h2>
+            <table>
+                <tr>
+                    <td>MySQL/MariaDB</td>
+                    <td>PostgreSQL</td>
+                    <td>Cassandra</td>
+                    <td>Redis</td>
+                    <td>SQLite</td>
+                </tr>
+            </table>
+            <h2><i class="fas fa-tools"></i> Big Data tech and tools </h2>
+            <table>
+                <tr>
+                    <td>Weka</td>
+                    <td>Airflow</td>
+                    <td>Kafka</td>
+                    <td>Scrapy</td>
+                    <td>Spark</td>
+                    <td>Hadoop</td>
+                </tr>
+            </table>
+            <h2><i class="fas fa-stream"></i> Data Science </h2>
+            <table>
+                <tr>
+                    <td>TensorFlow</td>
+                    <td>NLP</td>
+                    <td>Chatbot</td>
+                    <td>Classification</td>
+                    <td>Tensorflow-js</td>
+                </tr>
+            </table>
+            <h2><i class="fas fa-tools"></i> Web Frameworks </h2>
+            <table>
+                <tr>
+                    <td>Django</td>
+                    <td>Flask</td>
+                    <td>Laravel</td>
+                    <td>Symphony</td>
+                </tr>
+            </table>
+            <h2><i class="fas fa-stream"></i> Data Visualization </h2>
+            <table>
+                <tr>
+                    <td>Matplot</td>
+                    <td>Plotly</td>
+                    <td>Seaborn</td>
+                    <td>Pandas</td>
+                    <td>HighChart</td>
+                </tr>
+            </table>
+            <h2><i class="fab fa-docker"></i> DevOps </h2>
+            <table>
+                <tr>
+                    <td>Docker</td>
+                    <td>Vagrant</td>
+                    <td>VirtualBox</td>
+                </tr>
+            </table>
+            <h2><i class="fas fa-server"></i> Cloud Platform</h2>
+            <table>
+                <tr>
+                    <td>AWS</td>
+                    <td>DigitalOcean</td>
+                </tr>
+            </table>
+            <h2><i class="fas fa-toolbox"></i> Dev Tools </h2>
+            <table>
+                <tr>
+                    <td>GitHub</td>
+                    <td>BitBucket</td>
+                    <td>Slack</td>
+                    <td>Jira</td>
+                    <td>Confluence</td>
+                    <td>Trello</td>
+                </tr>
+            </table>
+            <h2><i class="fas fa-chalkboard"></i> Learning </h2>
+            <table>
+                <tr>
+                    <td>pyText</td>
+                    <td>Tensorflow-JS</td>
+                </tr>
+            </table>
+
+            <p></p>
+            Mainly working Natural Language Processing, text-mining and sentiment analysis.
+            <p></p>
+        </div>-->
+    </div>
+
+    <div id="work">
+        <p>works.</p>
+        <h1><span id="web-btn" style="border-bottom:3px solid #000;" onclick="showweb()">Data Science</span>
+<!--            <span onclick="showdes()" id="des-btn">Web</span></h1>-->
+        <div id="Data Science<">
+
+            <div class="project">
+                <h1>Restaurant crawlers</h1>
+                <h3>docker supported scrapy restaurant crawlers</h3>
+<!--                <a href="https://sahupankaj10.github.io/crawlers/" target="_blank"><button>visit <i class="fas fa-long-arrow-alt-right right-arrow"></i></button></a>-->
+                <a href="https://github.com/sahupankaj10/docker-restaurant-crawlers" target="_blank"><button><i class="fas fa-code right-arrow"></i> code</button></a>
+            </div>
+
+            <div class="project">
+                <h1>keyword extractor</h1>
+                <h3>Automatic keyword extraction from articles using nlp</h3>
+                <a href="https://github.com/sahupankaj10/auto-keyword-extraction-using-nlp" target="_blank"><button><i class="fas fa-code right-arrow"></i> code</button></a>
+            </div>
+
+            <div class="project">
+                <h1>text summarizer</h1>
+                <h3>Summarizing the text from single domain multiple document</h3>
+                <a href="https://github.com/sahupankaj10/text_summarization_using_text-rank" target="_blank"><button><i class="fas fa-code right-arrow"></i> code</button></a>
+            </div>
+
+            <div class="project">
+                <h1>basechat</h1>
+                <h3>a basic chatbot using NLTK library</h3>
+                <a href="https://github.com/sahupankaj10/basic_chatbot" target="_blank"><button><i class="fas fa-code right-arrow"></i> code</button></a>
+            </div>
+
+        </div>
+
+        <div id="web" style="display:none;">
+<!--            <div class="project" onclick="inlarge('https://cdn.dribbble.com/users/2574485/screenshots/6191588/nike.png')">-->
+<!--                <img src="https://cdn.dribbble.com/users/2574485/screenshots/6191588/nike.png">-->
+<!--            </div>-->
+        </div>
+    </div>
+
+    <div id="contact">
+        <p>contact.</p>
+        <div id="details">
+            <a href="mailto:sahupankaj1012@gmail.com"><i class="far fa-envelope what-second-div"></i></a>
+            <a href="https://github.com/sahupankaj10" target="_blank"><i class="fab fa-github what-second-div"></i></a>
+            <a href="https://linkedin.com/in/sahupankaj10" target="_blank"><i class="fab fa-linkedin what-second-div"></i></a>
+        </div>
+    </div>
+    <center id="in_mobile"><b>made on earth by a human</b></center>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<script src="index.js" type="text/JavaScript"></script>
+<script type="text/JavaScript">
+    var typed = new Typed('#typehere', {
+        strings: ['<h1>Pankaj Sahu,</h1> Machine Learning Enginner <h3><div id="details">' +
+        '<a href="mailto:sahupankaj1012@gmail.com"><i class="far fa-envelope what-second-div"></i></a>' +
+        '<a href="https://github.com/sahupankaj10" target="_blank"><i class="fab fa-github what-second-div"></i></a>' +
+        '<a href="https://linkedin.com/in/sahupankaj10" target="_blank"><i class="fab fa-linkedin what-second-div"></i></a>' +
+        '<a href="https://medium.com/@sahupankaj10" target="_blank"><i class="fab fa-medium what-second-div"></i></a>\n' +
+        '<a href="https://stackoverflow.com/story/sahupankaj10" target="_blank"><i class="fab fa-stack-overflow what-second-div"></i></a>\n' +
+        '</div></h3>'],
+        typeSpeed: 35,
+        smartBackspace: true,
+        backSpeed: 28,
+        showCursor: false,
+        startDelay: 4400
+    });
+    $(document).ready(function(){
+        $("a").on('click', function(event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+                $('body,html').animate({
+                    scrollTop: $(hash).offset().top
+                }, 1400, function(){
+                    window.location.hash = hash;
+                });
+            }
+        });
+    });
+</script>
+</body>
+</html>
