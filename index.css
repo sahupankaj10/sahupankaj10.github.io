@@ -3,7 +3,7 @@ body{
     margin:0px;
     font-family: 'Comfortaa', cursive;
     font-weight:bold;
-    background:url("https://images.unsplash.com/photo-1550684656-96eda9e5c632?&w=1634") center center fixed;
+    background:url("https://images.pexels.com/photos/533907/pexels-photo-533907.png") center center fixed;
     background-size:cover !important;
     width:100vw;
     height:100vh;
@@ -117,7 +117,7 @@ body{
 }
 
 #tagline h1 {
-    background:url("https://images.unsplash.com/photo-1550684656-96eda9e5c632?&w=1634") center center;
+    background:url("https://images.pexels.com/photos/533907/pexels-photo-533907.png") center center;
     -webkit-background-clip:text;
     background-clip:text;
     -webkit-text-fill-color: transparent;
@@ -151,7 +151,7 @@ body{
 }
 #portfolio div p{
     font-size:55px;
-    background:url("https://images.unsplash.com/photo-1550684656-96eda9e5c632?&w=1634") center center;
+    background:url("https://images.pexels.com/photos/370799/pexels-photo-370799.jpeg") center center;
     -webkit-background-clip:text;
     background-clip:text;
     -webkit-text-fill-color: transparent;
