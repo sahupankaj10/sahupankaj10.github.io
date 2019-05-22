@@ -214,6 +214,17 @@ body{
     border-radius:10px;
 }
 
+.paper-title {
+    font-size: larger;
+    margin: 10px 0;
+}
+
+#design .project {
+    width:auto;
+    height:auto;
+    display: block; 
+}
+
 ::-webkit-scrollbar {
     width:5px;
     height:5px;

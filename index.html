@@ -12,7 +12,7 @@
     <meta property="og:description" content="Pankaj Sahu, Machine Learning Engineer" />
     <meta property="og:image" content="https://sahupankaj10.github.io/og.png">
     <meta property="og:url" content="https://sahupankaj10.github.io/">
-    <link rel="icon" href="https://sahupankaj10.github.io/icon.png" type="image/png" />
+    <link rel="icon" href="https://avatars3.githubusercontent.com/u/6275610?v=4" type="image/png" />
 <!--    <meta name="google-site-verification" content="mjFIZTxE_IKhH-lBgPwblCJ1xPugeI5RRe0qnXF10M8" />-->
     <title>Pankaj Sahu</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -21,6 +21,16 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
+    <!-- Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140674987-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-140674987-1');
+    </script>
+
 </head>
 <body id="body">
 <div id="loading">
@@ -158,9 +168,10 @@
 
     <div id="work">
         <p>works.</p>
-        <h1><span id="web-btn" style="border-bottom:3px solid #000;" onclick="showweb()">Data Science</span>
-<!--            <span onclick="showdes()" id="des-btn">Web</span></h1>-->
-        <div id="Data Science<">
+        <h1><span id="web-btn" style="border-bottom:3px solid #000;" onclick="showweb()">Recent</span>
+            <span onclick="showdes()" id="des-btn">Publication</span>
+        </h1>
+        <div id="web">
 
             <div class="project">
                 <h1>Restaurant crawlers</h1>
@@ -189,10 +200,19 @@
 
         </div>
 
-        <div id="web" style="display:none;">
-<!--            <div class="project" onclick="inlarge('https://cdn.dribbble.com/users/2574485/screenshots/6191588/nike.png')">-->
-<!--                <img src="https://cdn.dribbble.com/users/2574485/screenshots/6191588/nike.png">-->
-<!--            </div>-->
+<!--        <div id="design" style="display:none;"><div class="project" onclick="inlarge('https://cdn.dribbble.com/users/2574485/screenshots/6191588/nike.png')">-->
+<!--            <img src="https://cdn.dribbble.com/users/2574485/screenshots/6191588/nike.png">-->
+<!--        </div>-->
+
+        <div id="design" style="display: none;">
+            <div class="project">
+                <p class="paper-title" style="font-size: larger; ">Finding RkNN Set in Directed Graphs.</p>
+                <span class="" style="color: gray; font-size: medium;">
+                    <u>Pankaj Sahu</u>, Prachi Agrawal, Vikram Goyal, Debajyoti Bera
+                    <br>In: 11th International Conference on Distributed Computing and Internet Technology (ICDCIT-2015)
+                    [<a href="http://link.springer.com/chapter/10.1007/978-3-319-14977-6_10">PDF</a>]
+                </span>
+            </div>
         </div>
     </div>
 
@@ -201,7 +221,7 @@
         <div id="details">
             <a href="mailto:sahupankaj1012@gmail.com"><i class="far fa-envelope what-second-div"></i></a>
             <a href="https://github.com/sahupankaj10" target="_blank"><i class="fab fa-github what-second-div"></i></a>
-            <a href="https://linkedin.com/in/sahupankaj10" target="_blank"><i class="fab fa-linkedin what-second-div"></i></a>
+            <a href="https://linkedin.com/in/sahupankaj10" target="_blank" style="color: #0077b5"><i class="fab fa-linkedin what-second-div"></i></a>
         </div>
     </div>
     <center id="in_mobile"><b>made on earth by a human</b></center>
@@ -213,9 +233,9 @@
         strings: ['<h1>Pankaj Sahu</h1> Machine Learning Enginner <h3><div id="details">' +
         '<a href="mailto:sahupankaj1012@gmail.com"><i class="far fa-envelope what-second-div"></i></a>' +
         '<a href="https://github.com/sahupankaj10" target="_blank"><i class="fab fa-github what-second-div"></i></a>' +
-        '<a href="https://linkedin.com/in/sahupankaj10" target="_blank"><i class="fab fa-linkedin what-second-div"></i></a>' +
+        '<a href="https://linkedin.com/in/sahupankaj10" target="_blank" style="color: #0077b5"><i class="fab fa-linkedin what-second-div"></i></a>' +
         '<a href="https://medium.com/@sahupankaj10" target="_blank"><i class="fab fa-medium what-second-div"></i></a>\n' +
-        '<a href="https://stackoverflow.com/story/sahupankaj10" target="_blank"><i class="fab fa-stack-overflow what-second-div"></i></a>\n' +
+        '<a href="https://stackoverflow.com/story/sahupankaj10" target="_blank" style="color: indianred"><i class="fab fa-stack-overflow what-second-div"></i></a>\n' +
         '</div></h3>'],
         typeSpeed: 35,
         smartBackspace: true,
@@ -230,7 +250,7 @@
                 var hash = this.hash;
                 $('body,html').animate({
                     scrollTop: $(hash).offset().top
-                }, 1400, function(){
+                }, 140, function(){
                     window.location.hash = hash;
                 });
             }
