@@ -5,5 +5,3 @@
  ## Coming soon
  
  - Blog
- - Publication
- - Research Project
