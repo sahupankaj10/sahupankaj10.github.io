@@ -15,7 +15,7 @@
     "github-emoji": "^1.1.0",
     "got": "^9.6.0",
     "handlebars": ">=4.3.0",
-    "jsdom": "^15.1.0"
+    "jsdom": "^16.5.0"
   },
   "devDependencies": {
     "lodash": ">=4.17.14"
